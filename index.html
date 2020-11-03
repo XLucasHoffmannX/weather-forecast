@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="icon" href="https://img.icons8.com/color/96/000000/partly-cloudy-day.png">
+    <!--  -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"crossorigin=""></script>
+    <title>Clima Tempo</title>
+</head>
+<body>
+    <button class="float"><img id="search-float" src="./assets/img/icons/search.svg" alt=""></button>
+    <div id="container">
+        <header class="main-title">
+            <h1>Clima Tempo</h1>
+            <small>Desenvolvido por <a href="http://lucashoffmann.gq">@Hoffmann</a> 😉</small>
+            <span class="insert-temperature"></span>
+        </header>
+        <div class="loader"><div class="spin"></div></div>
+        <div class="display"></div> 
+        <div class="input-display">
+            <form class="form" id="form-input">
+                <label for="inputSearch">Informe um local:</label>
+                <input type="text" name="" id="inputSearch">
+                <span class="error-message"></span>
+                <button type="submit"><img src="./assets/img/icons/back.png" alt=""></button>
+            </form>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

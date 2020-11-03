@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+:root{
+    font-size: 62.5%;
+}
+@keyframes animate-div {
+    from { opacity: 0; margin-top: -150px;}
+    to { opacity: 1;margin-top: 0px;}
+}
+@keyframes loader{
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes left {
+    from {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body, #container{
+    overflow-x: hidden;
+    background: rgb(112, 112, 243);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(112, 112, 243);
+}
+footer{
+    background: #d9d9d9;
+    width: 100vw;
+    height: 25vh;
+}
+button {
+    cursor: pointer;
+}
+   
+input {
+    -webkit-appearance: none;
+}
+   
+button, input {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+} 
+
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin: 30px 0;
+}
+*::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+*::-webkit-scrollbar-thumb:vertical {
+    height: 2px;
+    border-radius: 6px;
+}
+*::-webkit-scrollbar {
+    height: -10rem;
+    border-radius: 50%;
+}

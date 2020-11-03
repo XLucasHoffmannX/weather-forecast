@@ -1,0 +1,73 @@
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min(95vw, 540px);
+}
+.main-title h1{
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+}
+.main-title small{
+    font-size: 15px;
+    color: white;
+    margin-bottom: .5rem;
+}
+.main-title a{
+    color: white;
+    text-decoration: none;
+}
+.insert-temperature{
+    color: white;
+    font-weight: 600;
+    font-size: 6rem;
+    animation: left 2.5s;
+}
+.input-display{
+    margin-top: 2rem;
+    width: min(95vw, 540px);
+    height: min(300px);
+    background: #F2F2F2;
+    border-radius: 30px;
+    animation: left 1s;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form label, input{
+    font-size: 2.5rem;
+    opacity: 0.8;
+}
+.form input, button{
+    width: 80%;
+}
+
+.form input{
+    margin-top: 1rem;
+    border-bottom: 1px solid;
+    height: 30px;
+    text-align: center;
+}
+.error-message{
+    margin-top: 1rem;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(214, 55, 55);
+}
+.form button{
+    margin-top: 2rem;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #FA4A0C;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+}
